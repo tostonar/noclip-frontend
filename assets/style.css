@@ -1,0 +1,118 @@
+ @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	background-image: url("./images/Starbasesnow.png");
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+#form {
+	border: 3px solid #f1f1f1;
+	border-radius: 10%;
+	padding: 16px;
+}
+
+#form-wrapper {
+	margin: auto;
+	padding: 70px 0;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: rgb(70, 102, 161);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.section {
+	height: 100vh;
+}
+
+#canvas {
+	margin-left: 40px;
+	display: flex;
+}
+
+#users {
+	margin: 0 40px;
+
+}
+#game {
+	margin-top: 20px;
+}
+
+#instructions {
+	margin: 0 40px;
+}
+
+.marquee {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4vw;
+  line-height: 4vw;
+	margin-block-end: 0;
+}
+
+#topgames h3 {
+	margin-block-end: 0.5em;
+}
+
+#howToPlay {
+	list-style-type: none;
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	border-bottom: solid 5px rgba(255, 255, 255, 0.8);
+	margin: 0.5em 0;
+	border: 0;
+	height: 0; /* Firefox... */
+	box-shadow: 0 0 7px 1px whitesmoke;
+}
+
+hr:after {
+	content: "\00a0";  /* Prevent margin collapse */
+}
+
+.inner {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.icon {
+	font-family: "Font Awesome";
+}
+
+

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>noclip</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://use.fontawesome.com/d25770f16d.js"></script>
+    <script defer src='js/lib/phaser.js'></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: tan;
+        }
+    </style>
+    <script type='module' src='js/game.js'></script>
+</head>
+
+<body>
+<section id="header" class="section">
+    <div class="inner">
+
+        <div id="instructions" style="display: none">
+            <h4 class="text-center">How to Play - Use Your Keyboard</h2>
+            <ul id="howToPlay">
+                <li>⬆️ - Move forward</li>
+                <hr>
+                <li>⬇️ - Move backwards</li>
+                <hr>
+                <li>⬅️ - Move left</li>
+                <hr>
+                <li>➡️ - Move right</li>
+                <hr>
+                <li><span class="bold">SPACEBAR</span> - Hold down to phase through obstacles using energy</li>
+                <hr>
+                <li><span class="bold">SHIFT</span> - Halt ship</li>
+                <hr>
+                <li>If you run out of energy while phasing through an object, ☠️</li>
+                <hr>
+                <li>If you touch an object, ☠️ </li>
+                <hr>
+                <li>If game is over, press SPACEBAR to play again</li>
+                <li>🚀 Fly safely! 🚀</li>
+            </ul>
+        </div>
+
+        <div id='game'>
+        </div>
+
+        <div id='users' style="display: none">
+            <h2 class='marquee'>HI-SCORES</h1>
+            <br>
+            <div class="users" id='topgames'>
+            </div>
+        </div>
+
+        <div id="form-wrapper">
+            <div id='form'>
+                <!-- <span class="fa-rocket icon"></span> -->
+                <h1 id='enter'>Enter your name to play:</h1>
+                <br>
+                <form id="user_form">
+                    <label for="user"><b>Username</b></label>
+                    <input id="user_input" type="text" name="user" required placeholder="Enter Username"/>
+                    <br>
+                    <input type="submit" value="Login"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+</body>
+</html>
